@@ -65,27 +65,31 @@
                     MG
                 </div>
                 <div>
-                    <h1 class="font-black text-lg sm:text-xl tracking-tight leading-none flex items-center gap-2">
-                        <span>새마을금고</span>
-                        <span class="text-xs bg-mg-dark/80 px-2 py-0.5 rounded-full font-normal border border-white/20">대출 시뮬레이터</span>
-                    </h1>
-                    <p class="text-[11px] text-blue-100 mt-0.5">고객 맞춤형 대출상환액 & 시장 변동금리 계산기</p>
-                </div>
-            </div>
-            <div class="flex items-center space-x-2">
-                <button onclick="window.print()" class="no-print bg-white/10 hover:bg-white/20 text-white text-xs px-3 py-2 rounded-xl transition flex items-center gap-1.5 border border-white/10">
-                    <i class="fa-solid fa-print"></i>
-                    <span class="hidden sm:inline">인쇄 / PDF</span>
-                </button>
-                <button onclick="resetCalculator()" class="no-print bg-white/10 hover:bg-white/20 text-white text-xs px-3 py-2 rounded-xl transition flex items-center gap-1.5 border border-white/10">
-                    <i class="fa-solid fa-rotate-left"></i>
-                    <span class="hidden sm:inline">초기화</span>
-                </button>
+                <h1 class="font-black text-lg sm:text-xl tracking-tight leading-none flex items-center gap-2">
+                    <span>새마을금고</span>
+                    <span class="text-xs bg-mg-dark/80 px-2 py-0.5 rounded-full font-normal border border-white/20">대출 시뮬레이터</span>
+                </h1>
+                <p class="text-[11px] text-blue-100 mt-0.5">고객 맞춤형 대출상환액 & 시장 변동금리 계산기</p>
             </div>
         </div>
-    </header>
+        <div class="flex items-center space-x-2">
+            <a href="https://kfcc004-bit.github.io/mg/cal.html" class="no-print bg-yellow-400 hover:bg-yellow-300 text-mg-dark text-xs font-extrabold px-3 py-2 rounded-xl transition flex items-center gap-1.5 shadow-md">
+                <i class="fa-solid fa-calculator"></i>
+                <span>[계산기]</span>
+            </a>
+            <button onclick="window.print()" class="no-print bg-white/10 hover:bg-white/20 text-white text-xs px-3 py-2 rounded-xl transition flex items-center gap-1.5 border border-white/10">
+                <i class="fa-solid fa-print"></i>
+                <span class="hidden sm:inline">인쇄 / PDF</span>
+            </button>
+            <button onclick="resetCalculator()" class="no-print bg-white/10 hover:bg-white/20 text-white text-xs px-3 py-2 rounded-xl transition flex items-center gap-1.5 border border-white/10">
+                <i class="fa-solid fa-rotate-left"></i>
+                <span class="hidden sm:inline">초기화</span>
+            </button>
+        </div>
+    </div>
+</header>
 
-    <!-- Main Content Container -->
+<!-- Main Content Container -->
     <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
 
         <!-- Banner / Customer Type Mode Banner -->
